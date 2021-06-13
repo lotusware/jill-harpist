@@ -18,13 +18,16 @@ body {
 }
 
 
-.social{color:white;
+.social{color:#672A1F;
     display: block;
     flex-grow: 1;
-    transition: flex-grow 1s;
+    transition: flex-grow 1s, background-color 1s, letter-spacing 1s;
     text-align: center; 
     padding: 15px;
-}.social:hover{flex-grow: 2;}
+    font-family: 'roboto', sans-serif;
+    font-size:18px;
+    background-color:rgba(255,255,255,0.85); height:53; width:56;
+}.social:hover{flex-grow: 2;background-color:rgba(255,255,255,1); letter-spacing: 3px;}
 
 .footer{color:white;
     display: block;
@@ -33,11 +36,9 @@ body {
 
 
 
-    .insta {background: #d6249f;background: linear-gradient( 20deg ,#f56040,  #e1306c ,#833ab4 );}
-    .twitter{background-color:#1DA1F2}
-    .twitch{background-color:#9146ff}
-    .tiktok{background-color:black; height:53; width:56;}
-    .discord{background-color:#7289da}
+
+
+
     .white{background-color:white;margin:5px 5px 5px 5px; border-radius: 50px;}
 
     a:link {
@@ -48,38 +49,39 @@ body {
     
       p{
           font-size: 18px;
-          font-weight: 400;
+          font-weight: 300;
           color:white;
           text-align:center;
-          font-family: 'Quicksand', sans-serif;
-          text-shadow: 1px 1px 8px rgba(0,0,0,1);
+          font-family: 'Open Sans', sans-serif;
           line-height: normal;
       }
-      .bold{
-        font-size: 22px;
-        font-weight: 700;}
 
       .logo{
         display: block;
         flex-shrink: 2;
         text-align: center; 
-        padding: 15px 5px 15px 5px; text-shadow: 1px 1px 8px rgba(0,0,0,0.5)}
-
-      .avatar{
-        border-style: none; border-radius: 500px; 
-        max-width:200px;
+        padding: 15px 5px 15px 5px;
+        max-width:800px;
+        padding: 30px 30px 30px 30px;
       }
+.tagline{
+  font-size:16pt;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8)}
+  
+.copy{
+  color:black;}
 
 
 
 footer{
-    background-color: rgba(131,131,161,1);
+    background-color: black;
     padding:50px;
 }
 
 .small{
     font-size: 24pt;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.5)
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.25)
 }
 
 .button {
